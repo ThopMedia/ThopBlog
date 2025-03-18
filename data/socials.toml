@@ -1,0 +1,7 @@
+socials = [
+  { href = "https://github.com/ThopMedia/", target="_blank", icon = "logo-github", title = "GitHub" },
+  { href = "https://x.com/thopmedia/", target="_blank", icon = "logo-x", title = "X" },
+  { href = "https://www.facebook.com/thopmedia/", target="_blank", icon = "logo-facebook", title = "Facebook" },
+  { href = "https://www.instagram.com/thopmedia/", target="_blank", icon = "logo-instagram", title = "Instagram" },
+  { href = "https://www.linkedin.com/in/nikhilreddyj/", target="_blank", icon = "logo-linkedin", title = "Linkedin" },
+]
