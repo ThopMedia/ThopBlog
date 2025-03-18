@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thop on Thop Blog</title>
+    <link>http://localhost:1313/categories/thop/</link>
+    <description>Recent content in Thop on Thop Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/thop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Install Proxmox VE</title>
+      <link>http://localhost:1313/post/bundle/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/bundle/</guid>
+      <description>
+        
+          
+            Proxmox VE is an open-source server platform for enterprise virtualization. As a Debian-based Linux distribution, Proxmox uses a modified Ubuntu kernel to run multiple virtual machines and containers on a single server. You can deploy and manage virtualized environments through a web console or a command line, ensuring simple and fast accessibility.
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
