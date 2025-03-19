@@ -49,12 +49,12 @@ favicon = "/img/favicon.ico"
 # options
 # stickyNav = true
 reorderNavItems = ["search", "about", "rss", "posts", "categories", "tags"]
-# collapseNavItems = ["posts", "categories", "tags"]
+collapseNavItems = ["posts", "categories", "tags", "about"]
 # noDefaultSummaryCover = true
 # showTableOfContents = true
 # showSummaryCoverInPost = true
 # imageZoomableInPost = true
-# showPrevNextPost = true
+showPrevNextPost = true
 # reorderShares = ["x", "facebook", "whatsapp"]
 
 # [params.navItems]
