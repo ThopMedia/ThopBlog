@@ -2,7 +2,7 @@
   {{ if site.Params.siteStartYear }}
   <p>
     © {{ if eq now.Year site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ site.Params.siteStartYear }} - {{
-    now.Year }}{{ end }} {{ site.Title }} | Developed by <a href="https://thopmedia.com" target="_blank">ThopMedia</a>
+    now.Year }}{{ end }} {{ site.Title }} | Crafted by <a href="https://thopmedia.com" target="_blank">ThopMedia</a>
   </p>
   {{ else }}
   <p>© {{ now.Year }} {{ site.Title }}</p>
@@ -11,12 +11,11 @@
   {{ if site.Params.footerBottomText }}
   <p>{{ site.Params.footerBottomText | safeHTML }}</p>
   {{ else }}
-  <!-- <p class="text-sm">
-    🌱
+  <p class="text-sm">
     <span class="text-base-content/60">
       Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
       <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
     >
-  </p> -->
+  </p>
   {{ end }}
 </div>
