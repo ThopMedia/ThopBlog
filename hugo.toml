@@ -48,7 +48,7 @@ favicon = "/img/favicon.ico"
 
 # options
 # stickyNav = true
-# reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
+reorderNavItems = ["search", "about", "rss", "posts", "categories", "tags"]
 # collapseNavItems = ["posts", "categories", "tags"]
 # noDefaultSummaryCover = true
 # showTableOfContents = true
@@ -72,3 +72,10 @@ favicon = "/img/favicon.ico"
 # [params.experimental]
 # jsDate = true
 # jsDateFormat = "yyyy-MM-dd"
+
+[params.navItems]
+github = { href = "https://github.com/ThopMedia/", target = "_blank", icon = "logo-github", title = "GitHub" }
+#x = { href = "https://x.com/thopmedia/", target = "_blank", icon = "logo-x", title = "X" }
+#facebook = { href = "https://www.facebook.com/thopmedia/", target = "_blank", icon = "logo-facebook", title = "Facebook" }
+instagram = { href = "https://www.instagram.com/thopmedia/", target = "_blank", icon = "logo-instagram", title = "Instagram" }
+linkedin = { href = "https://www.linkedin.com/in/nikhilreddyj/", target = "_blank", icon = "logo-linkedin", title = "LinkedIn" }

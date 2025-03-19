@@ -3,7 +3,14 @@ title: "How to Install Proxmox VE"
 date: 2025-03-10
 draft: false
 author: "Nikhil Jayammagari"
-cover: proxmox-ve-install.png
+avatar: "/img/nikhil.png"
+cover: "https://i.postimg.cc/wjvZWwFJ/proxmox-ve-install.png"
+categories:
+  - installation
+tags:
+  - proxmox
+  - homelab
+summary: Proxmox VE is an open-source server platform for enterprise virtualization. As a Debian-based Linux distribution, Proxmox uses a modified Ubuntu kernel to run multiple virtual machines and containers on a single server.
 ---
 
 Proxmox VE is an open-source server platform for enterprise virtualization. As a Debian-based Linux distribution, Proxmox uses a modified Ubuntu kernel to run multiple virtual machines and containers on a single server. You can deploy and manage virtualized environments through a web console or a command line, ensuring simple and fast accessibility.

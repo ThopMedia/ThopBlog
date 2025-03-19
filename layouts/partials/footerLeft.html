@@ -2,7 +2,7 @@
   {{ if site.Params.siteStartYear }}
   <p>
     © {{ if eq now.Year site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ site.Params.siteStartYear }} - {{
-    now.Year }}{{ end }} {{ site.Title }}
+    now.Year }}{{ end }} {{ site.Title }} | Developed by <a href="https://thopmedia.com" target="_blank">ThopMedia</a>
   </p>
   {{ else }}
   <p>© {{ now.Year }} {{ site.Title }}</p>
