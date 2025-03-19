@@ -29,7 +29,7 @@ Follow the steps below to install Proxmox VE on a physical or dedicated server.
 
 The first step is to download the Proxmox VE ISO image.
 
-1. Navigate to the official Proxmox Downloads page and select Proxmox Virtual Environment.
+1. Navigate to the [official Proxmox Downloads page](https://www.proxmox.com/en/downloads) and select Proxmox Virtual Environment.
 ![Proxmox download page](https://phoenixnap.com/kb/wp-content/uploads/2022/01/proxmox-download-page.png)
 
 1. This takes you to the Proxmox Virtual Environment Archive, which stores ISO images and official documentation. Select ISO Images to continue.
