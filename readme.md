@@ -1,44 +1,92 @@
-# ThopBlog - Creating New Posts & Using Images
+# ThopBlog - Markdown Cheat Sheet
 
-## Creating a New Post
-1. Navigate to your Hugo project directory.
-2. Run the following command to create a new post:
-
-```bash
-hugo new posts/your-post-title.md
+## Headings
+```markdown
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 ```
 
-3. Open the newly created `.md` file inside `content/posts/`.
-4. Add your content inside the file and modify the front matter as needed. For example:
+## Bold & Italic
+```markdown
+**Bold Text**  
+*Italic Text*  
+***Bold and Italic***
+```
 
+## Lists
+### Unordered List
+```markdown
+- Item 1
+- Item 2
+  - Subitem 1
+  - Subitem 2
+```
+
+### Ordered List
+```markdown
+1. First item
+2. Second item
+   1. Subitem 1
+   2. Subitem 2
+```
+
+## Links
+```markdown
+[Link Text](https://example.com)
+```
+
+## Images
+```markdown
+![Alt Text](https://example.com/image.png)
+```
+
+## Code Blocks
+```markdown
+Inline code: `code here`
+
+Code block:
+```javascript
+console.log("Hello World");
+```
+```
+
+## Blockquotes
+```markdown
+> This is a blockquote.
+```
+
+## Tables
+```markdown
+| Header 1 | Header 2 |
+|-----------|------------|
+| Data 1    | Data 2     |
+| Data 3    | Data 4     |
+```
+
+## Horizontal Line
 ```markdown
 ---
-title: "My Awesome Post"
-date: {{< now >}}
-description: "A brief description of the post."
-image: "https://postimages.com/example-image.jpg"
-tags: ["web development", "hugo"]
----
 ```
 
-## Adding Images
-### Using PostImage for Free Hosting
-1. Upload your image to [PostImage](https://postimages.org/).
-2. Copy the **Direct Link** URL.
-3. Insert the image in your post like this:
-
+## Task List
 ```markdown
-![Image Description](https://postimages.com/example-image.jpg)
+- [x] Completed task
+- [ ] Incomplete task
 ```
 
-### Adding a Featured Image
-In the front matter of your post, add:
-
+## Emojis
 ```markdown
-image: "https://postimages.com/example-image.jpg"
+:smile: :rocket: :tada:
 ```
 
-This will display the image as the featured post image on the homepage.
+## Footnotes
+```markdown
+Here is a reference[^1].
 
-
+[^1]: This is the footnote.
+```
 
