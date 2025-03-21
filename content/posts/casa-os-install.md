@@ -1,6 +1,6 @@
 ---
 title: "CasaOS Installation"
-date: 2025-03-19
+date: 2025-03-17
 draft: false
 author: "Nikhil Jayammagari"
 avatar: "/img/nikhil.png"

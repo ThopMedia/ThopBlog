@@ -1,6 +1,6 @@
 ---
 title: "Install Ubuntu Server"
-date: 2025-03-19
+date: 2025-03-16
 draft: false
 author: "Nikhil Jayammagari"
 avatar: "/img/nikhil.png"

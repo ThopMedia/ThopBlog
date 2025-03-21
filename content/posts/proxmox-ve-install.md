@@ -1,6 +1,6 @@
 ---
 title: "How to Install Proxmox VE"
-date: 2025-03-19
+date: 2025-03-15
 draft: false
 author: "Nikhil Jayammagari"
 avatar: "/img/nikhil.png"
