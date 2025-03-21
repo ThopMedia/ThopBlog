@@ -9,6 +9,9 @@ categories:
   - installation
 tags:
   - casaos
+  - nginx proxy
+  - proxy
+  - ssl
   - homelab
 summary: Install Nginx Proxy Manager on Docker to easily manage reverse proxies with a web-based UI. Simplify SSL, domain routing.
 ---
