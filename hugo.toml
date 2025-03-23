@@ -1,7 +1,7 @@
 baseurl = "https://blog.thopmedia.com"
 defaultContentLanguage = "en"
 languageCode = "en"
-title = "ThopBlog"
+title = "Thop Blog"
 
 # [services]
 # [services.disqus]
@@ -21,7 +21,7 @@ darkTheme = "forest"
 author = "Nikhil Jayammagari"
 description = "WebDeveloper, Youtuber & Blogger"
 avatar = "/img/avatar.png"
-headerTitle = "ThopBlog"
+headerTitle = "Thop Blog"
 # motto = "Transform Your Digital Presence with Our Innovative Solutions"
 
 # footerBottomText = ""
