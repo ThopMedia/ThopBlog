@@ -155,7 +155,3 @@ Here is a reference[^1].
 [^1]: This is the footnote.
 
 ---
-
-## License
-This project is open-source and available under the MIT License.
-
