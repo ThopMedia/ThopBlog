@@ -6,8 +6,8 @@ title = "Thop Blog"
 # [services]
 # [services.disqus]
 # shortname = ""
-# [services.googleAnalytics]
-# ID = ""
+[services.googleAnalytics]
+ID = "G-QF9J7ESHD9"
 
 [params]
 # zenMode = true
@@ -19,14 +19,14 @@ darkTheme = "forest"
 # backgroundImageDark = ""
 
 author = "Nikhil Jayammagari"
-description = "WebDeveloper, Youtuber & Blogger"
+description = "ThopBlog is a website where I share blogs based on my YouTube videos. It focuses on topics like tech, HomeLab setups, and servers. Each blog provides a detailed explanation of the video content with step-by-step guides. The goal is to help readers understand and apply the information easily."
 avatar = "/img/avatar.png"
 headerTitle = "Thop Blog"
 # motto = "Transform Your Digital Presence with Our Innovative Solutions"
 
 # footerBottomText = ""
 
-# rss = true
+rss = true
 
 # utterancesRepo = ""
 
