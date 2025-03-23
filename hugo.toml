@@ -19,7 +19,7 @@ darkTheme = "forest"
 # backgroundImageDark = ""
 
 author = "Nikhil Jayammagari"
-description = "ThopBlog is a website where I share blogs based on my YouTube videos. It focuses on topics like tech, HomeLab setups, and servers. Each blog provides a detailed explanation of the video content with step-by-step guides. The goal is to help readers understand and apply the information easily."
+description = "Thop Blog is a website where I share blogs based on my YouTube videos. It focuses on topics like tech, HomeLab setups, and servers. Each blog provides a detailed explanation of the video content with step-by-step guides."
 avatar = "/img/avatar.png"
 headerTitle = "Thop Blog"
 # motto = "Transform Your Digital Presence with Our Innovative Solutions"
