@@ -49,7 +49,7 @@ favicon = "/img/favicon.ico"
 # options
 # stickyNav = true
 reorderNavItems = ["search", "about", "rss", "posts", "categories", "tags"]
-collapseNavItems = ["posts", "categories", "tags", "about"]
+collapseNavItems = ["posts", "categories", "tags", "about", "rss"]
 # noDefaultSummaryCover = true
 # showTableOfContents = true
 showSummaryCoverInPost = true
