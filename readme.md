@@ -5,8 +5,6 @@ ThopBlog is a simple and informative blog website where I share detailed write-u
 ## Features
 - Blogs based on YouTube videos
 - Step-by-step tutorials on HomeLab and servers
-- Easy-to-read markdown formatting
-- Open-source and customizable
 
 ## Installation
 To run this project locally:
