@@ -84,6 +84,8 @@ linkedin = { href = "https://www.linkedin.com/in/nikhilreddyj/", target = "_blan
 [params.onesignal]
   enable = true
   appId = "83ce8f96-97ce-46bb-8fe8-8bc5b947e6a1"          # From your OneSignal dashboard
-  promptOptions = "native"                   # or "auto" for default browser prompt
+  promptOptions = "persistent"                   # "native"or "auto" for default browser prompt
   notificationIcon = "static/img/avatar.png"  # 192x192px
- 
+  autoResubscribe = true           # Critical for reset scenarios
+  promptOptions = "persistent"     # Customize re-prompt behavior
+  resubscribeButtonText = "🔔 Re-enable Notifications"  # For manual opt-in
