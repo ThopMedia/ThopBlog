@@ -1,0 +1,29 @@
+{{ if .Site.Params.onesignal.enable }}
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "{{ .Site.Params.onesignal.appId }}",
+      {{ with .Site.Params.onesignal.safariWebId }}safari_web_id: "{{ .}}",{{ end }}
+      promptOptions: {
+        {{ if eq .Site.Params.onesignal.promptOptions "auto" }}
+        slidedown: {
+          prompts: [
+            {
+              type: "push", 
+              autoPrompt: true,
+              text: {
+                actionMessage: "We'd like to show you notifications for updates.",
+                acceptButton: "ALLOW",
+                cancelButton: "NO THANKS"
+              }
+            }
+          ]
+        }
+        {{ end }}
+      }
+    });
+  });
+</script>
+{{ end }}

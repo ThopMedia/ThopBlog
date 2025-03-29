@@ -1,3 +1,6 @@
+<head>
+  {{ partial "onesignal.html" . }}
+</head>
 {{ with site.Params.favicon }}
   {{ if hasPrefix . "<link" }}
     {{ . | safeHTML }}
