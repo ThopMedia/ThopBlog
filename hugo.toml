@@ -87,5 +87,4 @@ linkedin = { href = "https://www.linkedin.com/in/nikhilreddyj/", target = "_blan
   promptOptions = "persistent"                   # "native"or "auto" for default browser prompt
   notificationIcon = "static/img/avatar.png"  # 192x192px
   autoResubscribe = true           # Critical for reset scenarios
-  promptOptions = "persistent"     # Customize re-prompt behavior
   resubscribeButtonText = "🔔 Re-enable Notifications"  # For manual opt-in
