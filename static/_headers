@@ -1,6 +1,0 @@
-/*
-  Content-Security-Policy: 
-    script-src 'self' https://cdn.onesignal.com 'unsafe-eval';
-    worker-src 'self' https://cdn.onesignal.com blob:;
-    frame-src https://onesignal.com;
-    connect-src 'self' https://cdn.onesignal.com https://onesignal.com
