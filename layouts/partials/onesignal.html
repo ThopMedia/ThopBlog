@@ -13,25 +13,24 @@
         slidedown: {
           enabled: true,
           autoPrompt: false,  // We'll control prompts manually
-          pageViews: 3,       # Show after 3 page views if unsubscribed
-          timeDelay: 10       # Delay in seconds
+          pageViews: 3,       // Show after 3 page views if unsubscribed
+          timeDelay: 10       // Delay in seconds
         }
       }
     });
 
-    // Check subscription status on every page load
+    // Check subscription status
     OneSignal.isPushNotificationsEnabled(function(isEnabled) {
       if (!isEnabled) {
-        // User unsubscribed or reset - show re-prompt options
         const promptMethod = "{{ .Site.Params.onesignal.promptOptions }}";
         
         if (promptMethod === "persistent") {
-          // Option 1: Auto-reprompt after delay
+          // Auto-reprompt after delay
           setTimeout(() => {
             OneSignal.showSlidedownPrompt();
           }, 5000);
           
-          // Option 2: Show a manual button
+          // Manual button fallback
           const btn = document.createElement("button");
           btn.innerHTML = "{{ .Site.Params.onesignal.resubscribeButtonText }}";
           btn.style.cssText = "position:fixed;bottom:20px;right:20px;z-index:9999;padding:10px;";
