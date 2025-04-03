@@ -1,7 +1,7 @@
 ---
 title: "Install Nginx Proxy Manager on Docker & CasaOS"
 date: 2025-03-21
-draft: false
+draft: true
 author: "Nikhil Jayammagari"
 avatar: "/img/nikhil.png"
 cover: "https://i.postimg.cc/d3Lw9ZLK/Untitled-2.webp"
